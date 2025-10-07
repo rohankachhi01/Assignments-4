@@ -13,6 +13,8 @@ except Exception as e:
 
     print(f"An error occurred: {e}")
 
+    
+
 #task 2: Write and Append Data to a File
 
     filename = "sample.txt"
@@ -32,3 +34,4 @@ except Exception as e:
         print("Data appended to file successfully.")
     except Exception as e:
         print(f"An error occurred while appending: {e}")
+
